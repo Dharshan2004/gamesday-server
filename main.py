@@ -163,8 +163,7 @@ def run():
 		error()
 
 while True:
-
-	main(get_client())
+	run()
 
 
 
