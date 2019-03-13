@@ -3,6 +3,9 @@ import pyrebase
 import time 
 from gsheets import Sheets 
 import os
+from oauth2client.tools import argparser, run_flow
+args = argparser.parse_args()
+args.noauth_local_webserver = True
 pusher_clients = [
 #anirudhasaraf123t
 pusher.Pusher(
