@@ -8,4 +8,4 @@ RUN pip3 install -r requirements.txt
 
 COPY . /app
 
-ENTRYPOINT ["python", "main.py"]
+ENTRYPOINT ["python", "--noauth_local_webserver", "main.py"]
