@@ -8,4 +8,4 @@ RUN pip3 install -r requirements.txt
 
 COPY . /app
 
-ENTRYPOINT ["python", "/app/main.py"]
+ENTRYPOINT ["python", "main.py"]
